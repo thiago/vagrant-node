@@ -1,0 +1,57 @@
+[submodule "cookbooks/nodejs-cookbook"]
+	path = cookbooks/nodejs-cookbook
+	url = https://github.com/mdxp/nodejs-cookbook.git
+[submodule "cookbooks/phantomjs"]
+	path = cookbooks/phantomjs
+	url = https://github.com/customink-webops/phantomjs.git
+[submodule "cookbooks/nodejs"]
+	path = cookbooks/nodejs
+	url = https://github.com/mdxp/nodejs-cookbook.git
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = https://github.com/opscode-cookbooks/apt.git
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule "cookbooks/yum-epel"]
+	path = cookbooks/yum-epel
+	url = https://github.com/opscode-cookbooks/yum-epel.git
+[submodule "cookbooks/yum"]
+	path = cookbooks/yum
+	url = https://github.com/opscode-cookbooks/yum.git
+[submodule "cookbooks/chocolatey"]
+	path = cookbooks/chocolatey
+	url = https://github.com/chocolatey/chocolatey-cookbook.git
+[submodule "cookbooks/powershell"]
+	path = cookbooks/powershell
+	url = https://github.com/opscode-cookbooks/powershell.git
+[submodule "cookbooks/ms_dotnet2"]
+	path = cookbooks/ms_dotnet2
+	url = https://github.com/juliandunn/ms_dotnet2.git
+[submodule "cookbooks/windows"]
+	path = cookbooks/windows
+	url = https://github.com/opscode-cookbooks/windows.git
+[submodule "cookbooks/chef_handler"]
+	path = cookbooks/chef_handler
+	url = https://github.com/opscode-cookbooks/chef_handler.git
+[submodule "cookbooks/ms_dotnet4"]
+	path = cookbooks/ms_dotnet4
+	url = https://github.com/Webtrends/ms_dotnet4.git
+[submodule "cookbooks/ms_dotnet45"]
+	path = cookbooks/ms_dotnet45
+	url = https://github.com/Webtrends/ms_dotnet45.git
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = https://github.com/jssjr/git.git
+[submodule "cookbooks/nfs"]
+	path = cookbooks/nfs
+	url = https://github.com/atomic-penguin/cookbook-nfs.git
+[submodule "cookbooks/line"]
+	path = cookbooks/line
+	url = https://github.com/someara/line-cookbook.git
+[submodule "cookbooks/dmg"]
+	path = cookbooks/dmg
+	url = https://github.com/opscode-cookbooks/dmg.git
+[submodule "cookbooks/runit"]
+	path = cookbooks/runit
+	url = https://github.com/hw-cookbooks/runit.git
