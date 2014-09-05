@@ -14,10 +14,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
   end
 
-  # Copy .gitconfig do usuario (se existir) para nao precisar reconfigurar na VM:
+  # copy .gitconfig (if any) to don't need to reconfigure the VM:
   config.vm.provision "file", source: "~/.gitconfig", destination: "/home/vagrant/.gitconfig"
 
-  # Mapeando portas de 9000 a 9003 com autocorrecao caso ja esteja sendo usada
+  # Mapping ports 9000-9003 with AutoCorrect case is already being used
   for i in 9000..9003
     config.vm.network "forwarded_port", guest: i, host: i, auto_correct: true
   end
